@@ -8,7 +8,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   test: {
-    include: ["**/*.unit.spec.ts"],
+    include: ["**/*.integration.spec.ts"],
     globals: true,
     environment: "jsdom",
   },
